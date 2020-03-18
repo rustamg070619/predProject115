@@ -14,7 +14,6 @@ import java.io.PrintWriter;
 
 @WebServlet("/")
 public class AuthServlet extends HttpServlet {
-    private UserService userService = UserService.getInstance();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
