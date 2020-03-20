@@ -8,7 +8,7 @@ import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 @WebFilter("/admin")
-public class RoleFilter implements javax.servlet.Filter {
+public class RoleFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 

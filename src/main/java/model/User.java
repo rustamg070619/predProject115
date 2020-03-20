@@ -33,6 +33,7 @@ public class User {
         this.firstName = firstName;
         this.password = password;
     }
+
     public User(long id, String firstName, String password) {
         this.id = id;
         this.firstName = firstName;
